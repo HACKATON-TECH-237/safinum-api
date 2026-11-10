@@ -1,0 +1,65 @@
+{
+  "_comment": "Modèle de glossaire. Copier en <code-langue>.json (sans le _), renseigner la langue et les traductions validées par deux locuteurs, puis passer status à \"valide\". Les sources doivent reprendre EXACTEMENT les libellés de SAFINUM Pay, avec les variables masquées ({AMOUNT_0}, {CURRENCY_0}, {DATE_0}...). Seules les entrées au statut \"valide\" sont servies.",
+  "language": {
+    "code": "xx",
+    "name": "Langue à définir",
+    "validated": false
+  },
+  "version": "0.1.0",
+  "entries": [
+    {
+      "id": "BAL-001",
+      "source": "Solde disponible",
+      "translation": "",
+      "context": "balance.title",
+      "risk": "medium",
+      "status": "a_revoir",
+      "validators": ["", ""]
+    },
+    {
+      "id": "FEE-001",
+      "source": "Frais",
+      "translation": "",
+      "context": "transfer.fees",
+      "risk": "high",
+      "status": "a_revoir",
+      "validators": ["", ""]
+    },
+    {
+      "id": "FEE-002",
+      "source": "Montant envoyé : {AMOUNT_0} {CURRENCY_0}",
+      "translation": "",
+      "context": "transfer.fees",
+      "risk": "critical",
+      "status": "a_revoir",
+      "validators": ["", ""]
+    },
+    {
+      "id": "BEN-001",
+      "source": "Bénéficiaire",
+      "translation": "",
+      "context": "transfer.beneficiary",
+      "risk": "high",
+      "status": "a_revoir",
+      "validators": ["", ""]
+    },
+    {
+      "id": "SUM-001",
+      "source": "Récapitulatif",
+      "translation": "",
+      "context": "transfer.summary",
+      "risk": "medium",
+      "status": "a_revoir",
+      "validators": ["", ""]
+    },
+    {
+      "id": "SUM-002",
+      "source": "Confirmer le transfert",
+      "translation": "",
+      "context": "transfer.summary",
+      "risk": "critical",
+      "status": "a_revoir",
+      "validators": ["", ""]
+    }
+  ]
+}

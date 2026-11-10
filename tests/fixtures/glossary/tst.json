@@ -1,0 +1,12 @@
+{
+  "language": { "code": "tst", "name": "Langue de test", "validated": true },
+  "version": "test-1",
+  "entries": [
+    { "id": "T-001", "source": "Solde disponible", "translation": "SOLDE-TST", "context": "balance.title", "risk": "medium", "status": "valide" },
+    { "id": "T-002", "source": "Montant envoyé : {AMOUNT_0} {CURRENCY_0}", "translation": "{CURRENCY_0} {AMOUNT_0} ENVOI-TST", "risk": "critical", "status": "valide" },
+    { "id": "T-003", "source": "Frais", "translation": "FRAIS-TST", "risk": "high", "status": "a_revoir" },
+    { "id": "T-004", "source": "Envoyer", "translation": "ENVOYER-TST", "risk": "medium", "status": "valide" },
+    { "id": "T-005", "source": "Envoyer", "translation": "ENVOYER-BOUTON-TST", "context": "transfer.submit", "risk": "medium", "status": "valide" },
+    { "id": "T-006", "source": "Total {AMOUNT_0}", "translation": "TOTAL-TST", "risk": "critical", "status": "valide" }
+  ]
+}

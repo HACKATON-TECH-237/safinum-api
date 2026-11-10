@@ -1,0 +1,15 @@
+[project]
+name = "safinum-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.162.2",
+    "pydantic-settings>=2.16.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
